@@ -9,19 +9,19 @@ use MyCLabs\Enum\Enum;
 class FacetNameEnum extends Enum
 {
     const ENUMERATION = 'enumeration';
-    const FRACTION_DIGITS = 'fractionDigits';
+    const FRACTION_DIGITS = 'fractiondigits';
 
     const LENGTH = 'length';
-    const MAX_LENGTH = 'maxLength';
-    const MIN_LENGTH = 'minLength';
+    const MAX_LENGTH = 'maxlength';
+    const MIN_LENGTH = 'minlength';
 
-    const MAX_EXCLUSIVE = 'maxExclusive';
-    const MIN_EXCLUSIVE = 'minExclusive';
+    const MAX_EXCLUSIVE = 'maxexclusive';
+    const MIN_EXCLUSIVE = 'minexclusive';
 
-    const MAX_INCLUSIVE = 'maxInclusive';
-    const MIN_INCLUSIVE = 'minInclusive';
+    const MAX_INCLUSIVE = 'maxinclusive';
+    const MIN_INCLUSIVE = 'mininclusive';
 
     const PATTERN = 'pattern';
-    const TOTAL_DIGITS = 'totalDigits';
-    const WHITE_SPACE = 'whiteSpace';
+    const TOTAL_DIGITS = 'totaldigits';
+    const WHITE_SPACE = 'whitespace';
 }

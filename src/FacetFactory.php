@@ -1,4 +1,5 @@
 <?php namespace DCarbone\PHPXMLFacets;
+
 use DCarbone\PHPXMLFacets\Facet\AbstractFacet;
 use DCarbone\PHPXMLFacets\Facet\Enumeration;
 use DCarbone\PHPXMLFacets\Facet\FractionDigits;
@@ -25,7 +26,7 @@ class FacetFactory
      */
     public function getFacet($name, $value)
     {
-        switch($name)
+        switch(strtolower($name))
         {
             case FacetNameEnum::ENUMERATION:
                 return new Enumeration($value);
