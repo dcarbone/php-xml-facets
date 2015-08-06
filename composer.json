@@ -1,0 +1,26 @@
+{
+    "name": "dcarbone/php-xml-facets",
+    "description": "PHP Class representation of XML facets",
+    "homepage": "https://github.com/dcarbone/php-xml-facets",
+
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Daniel Paul Carbone",
+            "email": "daniel.p.carbone@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3",
+        "lib-libxml": "*",
+
+        "myclabs/php-enum": "1.4.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "DCarbone\\PHPXMLFacets\\": "src/"
+        }
+    }
+}
